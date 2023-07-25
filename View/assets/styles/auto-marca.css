@@ -1,0 +1,42 @@
+#enlaces {
+    line-height: 80px;
+    margin-top: 520px;
+    margin-left: 80px;
+    float: left;
+    animation-name: luz;
+    animation-duration: 2s;
+    transition: 200ms all;
+}
+
+@keyframes luz {
+    0% {
+        -webkit-transform:scale(1.6);transform:scale(1.6);
+    }
+}
+
+#enlaces:hover {
+    -webkit-transform:scale(1.3);transform:scale(1.3);
+}
+
+body {
+    background-image: url("../img/portadas/bronco.png");
+}
+
+#espacio-foto {
+    min-height: 550px;
+}
+
+#menu {
+    animation-name: menutanda;
+    animation-duration: 3s;
+}
+
+@keyframes menutanda {
+    0% {
+        opacity: 0%;
+    }
+
+    100%{
+        opacity: 100%;
+    }
+}

@@ -1,0 +1,73 @@
+body {
+    background-image: url("../img/automoviles/raptor.png");
+}
+
+#logos {
+    display: inline-block;
+    width: 100px;
+    height: 60px;
+    margin-left: 7.5px;
+    margin-top: 3px;
+    transition: 200ms all;
+    filter: saturate(150%);
+    margin-top: 10px;
+}
+
+#logos:hover {
+    -webkit-transform:scale(1.2);transform:scale(1.2);
+}
+
+#enlaces {
+    line-height: 80px;
+}
+
+#primera-tanda {
+    animation-name: primeratanda;
+    animation-duration: 3s;
+}
+@keyframes primeratanda {
+    0% {
+        opacity: 0%;
+    }
+    100%{
+        opacity: 100%;
+    }
+}
+
+#menu {
+    animation-name: menutanda;
+    animation-duration: 3s;
+}
+
+@keyframes menutanda {
+    0% {
+        opacity: 0%;
+    }
+
+    100%{
+        opacity: 100%;
+    }
+}
+
+footer {
+    background-color: white;
+    color: black;
+}
+
+#espacio-foto {
+    min-height: 550px;
+}
+
+#contenido {
+    min-height: 565px;
+    background-color: whitesmoke;
+}
+
+#img-auto {
+    filter: saturate(200%);
+    transition: 200ms all;
+}
+
+#img-auto:hover {
+    -webkit-transform:scale(1.1);transform:scale(1.1);
+}

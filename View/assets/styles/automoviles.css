@@ -1,0 +1,36 @@
+#enlaces {
+    line-height: 80px;
+    margin-top: 520px;
+    margin-left: 80px;
+    float: left;
+    animation-name: luz;
+    animation-duration: 2s;
+    transition: 200ms all;
+}
+
+/* #enlaces {
+    line-height: 80px;
+} */
+
+body {
+    background-image: url("../img/automoviles/raptor2.png");
+}
+
+#espacio-foto {
+    min-height: 550px;
+}
+
+#menu {
+    animation-name: menutanda;
+    animation-duration: 3s;
+}
+
+@keyframes menutanda {
+    0% {
+        opacity: 0%;
+    }
+
+    100%{
+        opacity: 100%;
+    }
+}
